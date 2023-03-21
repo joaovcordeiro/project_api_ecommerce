@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "outDir": "dist",
+    "sourceMap": true,
+    "strict": true,
+    "lib": ["esnext"],
+    "useUnknownInCatchVariables": false,
+    "resolveJsonModule": true,
+    "typeRoots": ["node_modules/@types"]
+  },
+  "ts-node": {
+    "esm": true
+  }
+}
