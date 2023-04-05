@@ -91,7 +91,7 @@ model OrderItem {
   @@map("order_item")
 }
 
-model Cart {
+model Cart { 
   id         Int     @id @default(autoincrement())
   user_id    Int
   product_id Int
